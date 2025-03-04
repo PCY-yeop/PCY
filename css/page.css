@@ -156,10 +156,6 @@
     section.floorA ul li dl dd{
         display: inline-block; font-size: 10px; padding-bottom: 39px;
     }
-    /* section.contractA ol li{
-        background-repeat: no-repeat; background-size: cover; width: 137px; height: 50px; box-sizing: border-box;
-        display: inline-block; position: relative; font-size: 12px; padding-top: 23px; font-weight: 600;
-    }  */
     section.contractA ol li{
         background-repeat: no-repeat; width: 100%; height: 50px; box-sizing: border-box; background-position: center;
         display: inline-block; font-size: 12px; padding-top: 23px; font-weight: 600; position: relative; margin: 0 auto;
@@ -171,19 +167,19 @@
     section.contractA ol li:nth-of-type(5){background-image: url('../images/contract_5.png'); color: #ad408d;}
     section.contractA ol li:nth-of-type(6){background-image: url('../images/contract_6.png'); color: #2c5391; height: 44px;}
     section.contractA ol li:nth-of-type(2n-1){
-        float: right; left: 56.5px; padding-left:x;
+        float: right; left: 56.5px; padding-left: 35%;
     }
     section.contractA ol li:nth-of-type(2n){
-        right: 3.8%; right: 56.5px; text-align: right; 
+        right: 3.8%; right: 56.5px; text-align: right;  padding-right: 35%;
     }
     section.contractA ol li span{
         text-align: center; position: absolute; font-size: 16px; color: #00566b; font-weight: 700;
     }
     section.contractA ol li:nth-of-type(2n) span{
-        top: 5px;
+        top: 5px; right: 28%;
     }
     section.contractA ol li:nth-of-type(2n-1) span{
-        top: 5px;
+        top: 5px; left: 28%;
     }
     section.contactA form{
         width: 250px; height: 377px;
