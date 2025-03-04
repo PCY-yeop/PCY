@@ -24,7 +24,7 @@ aside img{
     margin: auto 15px;
 }
 
-/* 하단 */
+
 section.contractA,
 section.contactA{
     margin-bottom: 70px;
@@ -41,7 +41,7 @@ section h2.header::after{
   background-color: #0B4F60;
 }
 
-/* 왼쪽 상단 가로선 */
+
 section h2.header::before {
   width: 35px;
   height: 5px;
@@ -49,7 +49,7 @@ section h2.header::before {
   left: 0px;
 }
 
-/* 왼쪽 상단 세로선 */
+
 section h2.header::after {
   width: 5px;
   height: 35px;
@@ -57,7 +57,7 @@ section h2.header::after {
   left: 0px;
 }
 
-/* 회색선 */
+
 section h2.header span {
     position: absolute;
     width: 2px;
