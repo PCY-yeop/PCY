@@ -60,12 +60,12 @@ section h2.header::after {
 /* 회색선 */
 section h2.header span {
     position: absolute;
-    width: 2px; /* 얇은 선 */
-    height: 25px; /* 원하는 길이 */
-    background-color: lightgray; /* 회색 */
-    bottom: -27px; /* 글씨 아래로 위치 조정 */
+    width: 2px;
+    height: 25px; 
+    background-color: lightgray; 
+    bottom: -27px; 
     left: 17px;
-    display: block; /* 블록 요소로 만들어서 크기 적용 */
+    display: block; 
 }
 
 aside{
@@ -117,11 +117,11 @@ footer a:first-child{
     background: url('../images/footer_phone.png') no-repeat; background-position: 5px center;
     border: 2px solid #739bc3; background-color: #315477;
     border-radius: 8px; box-sizing: border-box; padding: 10px 5px 10px 25px;
-    float: left; left: 20px;
+    float: left; left: 10%;
 }
 footer a:last-child{
     background: url('../images/footer_phone.png') no-repeat; background-position: 5px center;
     border: 2px solid #739bc3; background-color: #315477;
     border-radius: 8px; box-sizing: border-box; padding: 10px 5px 10px 25px;
-    float: right; right: 20px;
+    float: right; right: 10%;
 }
