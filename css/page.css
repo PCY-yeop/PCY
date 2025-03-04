@@ -50,10 +50,10 @@
     section.businessA ol li p{
         position: relative; top: 40px; line-height: 37px; background-repeat: no-repeat;
     }
-    section.businessA ol li:nth-of-type(1) {background: url('../images/business_1.jpg')}
-    section.businessA ol li:nth-of-type(2) {background: url('../images/business_2.jpg')}
-    section.businessA ol li:nth-of-type(3) {background: url('../images/business_3.jpg')}
-    section.businessA ol li:nth-of-type(4) {background: url('../images/business_4.jpg')}
+    section.businessA ol li:nth-of-type(1) {background-image: url('../images/business_1.jpg')}
+    section.businessA ol li:nth-of-type(2) {background-image: url('../images/business_2.jpg')}
+    section.businessA ol li:nth-of-type(3) {background-image: url('../images/business_3.jpg')}
+    section.businessA ol li:nth-of-type(4) {background-image: url('../images/business_4.jpg')}
     
     section.businessA ol li:nth-of-type(1){
         color: #7fbcbd; font-size: 26px; font-weight: 300; text-shadow: 2px 2px 2px black; 
@@ -92,14 +92,14 @@
     section.complexA div dl dd{
         font-size: 14px; font-weight: 600; line-height: 18px; padding-bottom: 5px; color: #242525;
     }
-    section.complexA >dl{
+    section.complexA > dl{
         background-repeat: no-repeat; background-size: cover; height: 192px; margin-bottom: 5px;
         width: 100%;
     }
-    section.complexA > dl:nth-of-type(1){background: url('../images/complex_1.png');}
-    section.complexA > dl:nth-of-type(2){background: url('../images/complex_2.png');}
-    section.complexA > dl:nth-of-type(3){background: url('../images/complex_3.png');}
-    section.complexA > dl:nth-of-type(4){background: url('../images/complex_4.png');}
+    section.complexA > dl:nth-of-type(1){background-image: url('../images/complex_1.png');}
+    section.complexA > dl:nth-of-type(2){background-image: url('../images/complex_2.png');}
+    section.complexA > dl:nth-of-type(3){background-image: url('../images/complex_3.png');}
+    section.complexA > dl:nth-of-type(4){background-image: url('../images/complex_4.png');}
     section.complexA > dl dt{
         font-size: 14px; font-weight: 700; color: #223f53; padding-bottom: 10px;
     }
@@ -120,19 +120,19 @@
         text-align: right;
     }
     section.floorA ul li{
-        background-repeat: no-repeat; background-size: cover; text-align: center;
+        background-repeat: no-repeat; background-size: cover; text-align: center; width: 100%;
     }
     section.floorA ul li:not(:last-child){
         margin-bottom: 2px;
     }
-    section.floorA ul li:nth-of-type(1){background: url('../images/floor/59A.gif'); height: 647px;}
-    section.floorA ul li:nth-of-type(2){background: url('../images/floor/59B.gif'); height: 741px;}
-    section.floorA ul li:nth-of-type(3){background: url('../images/floor/75A.gif'); height: 578px;}
-    section.floorA ul li:nth-of-type(4){background: url('../images/floor/75B.gif'); height: 568px;}
-    section.floorA ul li:nth-of-type(5){background: url('../images/floor/75C.gif'); height: 445px;}
-    section.floorA ul li:nth-of-type(6){background: url('../images/floor/84A.gif'); height: 592px;}
-    section.floorA ul li:nth-of-type(7){background: url('../images/floor/84B.gif'); height: 678px;}
-    section.floorA ul li:nth-of-type(8){background: url('../images/floor/84C.gif'); height: 633px;}
+    section.floorA ul li:nth-of-type(1){background-image: url('../images/floor/59A.gif'); height: 647px;}
+    section.floorA ul li:nth-of-type(2){background-image: url('../images/floor/59B.gif'); height: 741px;}
+    section.floorA ul li:nth-of-type(3){background-image: url('../images/floor/75A.gif'); height: 578px;}
+    section.floorA ul li:nth-of-type(4){background-image: url('../images/floor/75B.gif'); height: 568px;}
+    section.floorA ul li:nth-of-type(5){background-image: url('../images/floor/75C.gif'); height: 445px;}
+    section.floorA ul li:nth-of-type(6){background-image: url('../images/floor/84A.gif'); height: 592px;}
+    section.floorA ul li:nth-of-type(7){background-image: url('../images/floor/84B.gif'); height: 678px;}
+    section.floorA ul li:nth-of-type(8){background-image: url('../images/floor/84C.gif'); height: 633px;}
 
     section.floorA ul li > h2{
         padding: 30px 0 31px 0; color: white; font-size: 28px; font-weight: 400;
@@ -154,12 +154,12 @@
         background-repeat: no-repeat; background-size: cover; width: 137px; height: 50px; box-sizing: border-box;
         display: inline-block; position: relative; font-size: 12px; padding-top: 23px; font-weight: 600;
     } 
-    section.contractA ol li:nth-of-type(1){background: url('../images/contract_1.png'); color: #a37681;}
-    section.contractA ol li:nth-of-type(2){background: url('../images/contract_2.png'); color: #64a772;}
-    section.contractA ol li:nth-of-type(3){background: url('../images/contract_3.png'); color: #b86228;}
-    section.contractA ol li:nth-of-type(4){background: url('../images/contract_4.png'); color: #2d9695;}
-    section.contractA ol li:nth-of-type(5){background: url('../images/contract_5.png'); color: #ad408d;}
-    section.contractA ol li:nth-of-type(6){background: url('../images/contract_6.png'); color: #2c5391; height: 44px;}
+    section.contractA ol li:nth-of-type(1){background-image: url('../images/contract_1.png'); color: #a37681;}
+    section.contractA ol li:nth-of-type(2){background-image: url('../images/contract_2.png'); color: #64a772;}
+    section.contractA ol li:nth-of-type(3){background-image: url('../images/contract_3.png'); color: #b86228;}
+    section.contractA ol li:nth-of-type(4){background-image: url('../images/contract_4.png'); color: #2d9695;}
+    section.contractA ol li:nth-of-type(5){background-image: url('../images/contract_5.png'); color: #ad408d;}
+    section.contractA ol li:nth-of-type(6){background-image: url('../images/contract_6.png'); color: #2c5391; height: 44px;}
     section.contractA ol li:nth-of-type(2n-1){
         float: right; padding-left: 30px;
     }
@@ -200,9 +200,9 @@
     }
     section.contactA form fieldset button{
         border: none; width: calc(100% + 30px); 
-        margin-left: -15px; height: 60px; border-radius: 0 0 4px 4px; 
+        margin-left: -15px; height: 69px; border-radius: 0 0 4px 4px; 
         background-color: #404040; color: #ffffff;
-        font-size: 18px; font-weight: 400;
+        font-size: 18px; font-weight: 400; 
     }
     section.footer{
         background: url('../images/footer.img.png') no-repeat;
