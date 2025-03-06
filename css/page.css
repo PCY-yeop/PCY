@@ -222,21 +222,21 @@ section.contactA form fieldset{
     border: 1px solid #cfcfcf; width: 80%;
     border-radius: 5px; margin: 0 auto; 
     box-sizing: border-box;
-    padding: 120px 15px 0 15px;
+    padding: 160px 15px 0 15px;
     position: relative;
 }
 section.contactA form fieldset legend{
-    font-size: 17px; font-weight: 500; margin: 0 auto;
-    position: absolute; top: 10%; left: calc(50% - 60px);
+    font-size: 17px; font-weight: 600; margin: 0 auto;
+    position: absolute; top: 15%; left: calc(50% - 60px);
 }
 section.contactA form fieldset input{
     border: none; width: 100%; font-size: 14px; font-weight: 300;
     border-bottom: 1px solid #afafaf;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 section.contactA form fieldset label[for="agree"]{
     font-size: 12px; font-weight: 500; float: left; color: #404040; 
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 section.contactA form fieldset button{
     border: none; width: calc(100% + 30px); 
