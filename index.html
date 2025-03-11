@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unam</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/scripting.js"></script>
     <link rel="stylesheet" href="css/import.css">
 </head>
 <body>
     <aside id="menuPanel">
         <img src="images/main_logo.png" alt="logo">
-        <input type="button" value="close">
+        <input type="button" value="close" data-value="close">
         <nav>
             <ul>
-                <li><a href="#home">메인안내</a></li>
-                <li><a href="#business">사업안내</a></li>
-                <li><a href="#complex">단지안내</a></li>
-                <li><a href="#floorplan">평면안내</a></li>
-                <li><a href="#contract">계약안내</a></li>
-                <li><a href="#contact">방문안내</a></li>
+                <li><a data-value="close" href="#home">메인안내</a></li>
+                <li><a data-value="close" href="#business">사업안내</a></li>
+                <li><a data-value="close" href="#complex">단지안내</a></li>
+                <li><a data-value="close" href="#floorplan">평면안내</a></li>
+                <li><a data-value="close" href="#contract">계약안내</a></li>
+                <li><a data-value="close" href="#contact">방문안내</a></li>
             </ul>
         </nav>
     </aside>

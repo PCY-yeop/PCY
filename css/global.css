@@ -70,9 +70,9 @@ section h2.header span {
 }
 
 aside{
-    position: absolute; width: 100%; z-index: 1001;
+    position: fixed; width: 100%; z-index: 1001;
     background-color: #ffffff; margin-top: 15px;
-    height: 653px;
+    height: 100%;
 }
 aside input{
     background: url('../images/aside_X.png') no-repeat;
@@ -108,7 +108,7 @@ header div input{
 }
 footer{
     height: 60px; background: #404040; position: fixed; bottom: 0%;
-    border: 1px solid #404040; width: 100%;
+    border: 1px solid #404040; width: 100%; z-index: 1000;
 }
 footer a{
     text-decoration: none; font-size: 18px; color: #ffffff; position: relative;
